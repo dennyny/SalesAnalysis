@@ -33,7 +33,7 @@ These are some of the questions that would be answered.
 Print Column
 `print(df.columns)`
 
-[Output of Data Columns](https://github.com/dennyny/SalesAnalysis/blob/main/Images/columns2.PNG)
+![Columns](https://github.com/dennyny/SalesAnalysis/blob/main/Images/columns2.PNG)
 
 
 
