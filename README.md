@@ -22,3 +22,11 @@ These are some of the questions that would be answered.
 4. Plot of Payment type
 5. What are the most selling products?
 6. What are the top selling categories and sub category?
+
+## Importing the dataset
+`sp = 'C:/Users/Denis/Documents/PORTFOLIO/SalesAnalysis/Supermarket.csv'`
+`df = pd.read_csv(sp, header=0, encoding='unicode_escape')`
+
+## Audit of Dataset
+
+
