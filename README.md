@@ -35,6 +35,16 @@ Print Column
 
 ![Columns](https://github.com/dennyny/SalesAnalysis/blob/main/Images/columns2.PNG)
 
+`print(df.shape)`
+
+From Output below, Data contains 234,925 rows and 8 columns
+
+![shape](https://github.com/dennyny/SalesAnalysis/blob/main/Images/shape3.PNG)
+
+`print(df.info())`
+
+![Info](https://github.com/dennyny/SalesAnalysis/blob/main/Images/info4.PNG)
+
 
 
 
