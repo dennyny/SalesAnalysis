@@ -7,3 +7,18 @@ Sales analysis using Python together with Pandas, Matplotlib, Seaborn and Numpy 
 • A dataframe was created using Pandas library.
 
 • Matplot was using to plot graphs and Seaborn also.
+
+## First I Imported Libraries
+`import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+import numpy as np
+import datetime`
+
+These are some of the questions that would be answered.
+1. What is the overall sales trend?
+2. What are the top 10 product by sales?
+3. Top 10 product by Quantity
+4. Plot of Payment type
+5. What are the most selling products?
+6. What are the top selling categories and sub category?
