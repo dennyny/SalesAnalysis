@@ -25,8 +25,16 @@ These are some of the questions that would be answered.
 
 ## Importing the dataset
 `sp = 'C:/Users/Denis/Documents/PORTFOLIO/SalesAnalysis/Supermarket.csv'`
+
 `df = pd.read_csv(sp, header=0, encoding='unicode_escape')`
 
 ## Audit of Dataset
+
+Print Column
+`print(df.columns)`
+
+[Output of Data Columns](https://github.com/dennyny/SalesAnalysis/blob/main/Images/columns2.PNG)
+
+
 
 
