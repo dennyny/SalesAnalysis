@@ -114,5 +114,14 @@ What is the overall sales trend?
 
 ![Salesbyproduct](https://github.com/dennyny/SalesAnalysis/blob/main/Images/top10product.PNG)
 
+**A Plot of Payment type**
+
+**From the plot below, cash is the most used order method and gift card the lowest**
+
+`sns.countplot(df['Payment_Type'])`
+
+`plt.show()`
+
+![Payment Type](https://github.com/dennyny/SalesAnalysis/blob/main/Images/paymenttypeplot.PNG)
 
 
