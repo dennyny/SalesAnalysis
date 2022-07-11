@@ -77,3 +77,11 @@ What is the overall sales trend?
 
 ![MaxOrder](https://github.com/dennyny/SalesAnalysis/blob/main/Images/maxorderdate.PNG)
 
+**Using datetime function to extract month from the year column**
+
+`df['Sales Month'] = pd.DatetimeIndex(df['Order_Date']).month`
+
+`print(df.head())`
+
+
+
