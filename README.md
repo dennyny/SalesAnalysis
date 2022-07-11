@@ -37,7 +37,7 @@ Print Column
 
 `print(df.shape)`
 
-From Output below, Data contains 234,925 rows and 8 columns
+**From Output below, Data contains 234,925 rows and 8 columns**
 
 ![shape](https://github.com/dennyny/SalesAnalysis/blob/main/Images/shape3.PNG)
 
@@ -45,15 +45,35 @@ From Output below, Data contains 234,925 rows and 8 columns
 
 ![Info](https://github.com/dennyny/SalesAnalysis/blob/main/Images/info4.PNG)
 
-Checking for Null Values
+**Checking for Null Values**
 
 `print(df.isnull().sum())`
 
 ![Null Values](https://github.com/dennyny/SalesAnalysis/blob/main/Images/InNull5.PNG)
 
-Getting descriptive information on Dataset
+**Getting descriptive information on Dataset**
 
 `print(df.describe())`
 
 ![Describe](https://github.com/dennyny/SalesAnalysis/blob/main/Images/describe6.PNG)
+
+## Exploratory Data Analysis
+
+What is the overall sales trend?
+
+**Minimum Order Date**
+
+`df_min_order_date = df['Order_Date'].min()`
+
+`print(df_min_order_date)`
+
+![MinOrder](https://github.com/dennyny/SalesAnalysis/blob/main/Images/minorderdate7.PNG)
+
+**Maximum Order Date**
+
+`df_max_order_date = df['Order_Date'].max()`
+
+`print(df_max_order_date)`
+
+![MaxOrder](https://github.com/dennyny/SalesAnalysis/blob/main/Images/maxorderdate.PNG)
 
