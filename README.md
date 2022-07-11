@@ -83,5 +83,24 @@ What is the overall sales trend?
 
 `print(df.head())`
 
+![Month](https://github.com/dennyny/SalesAnalysis/blob/main/Images/extractsalesmonth8.PNG)
+
+**Sales/Revenue by sales month. This was done using the groupby function.**
+
+`df['Sales Month'] = pd.DatetimeIndex(df['Order_Date']).month`
+
+`print(df.head())`
+
+![Salesbymonth](https://github.com/dennyny/SalesAnalysis/blob/main/Images/Cost_PricevsPriceBar_Month.PNG)
+
+
+**Monthly sales sort. July had the highest sale and February had the lowest.**
+
+`df_month_Sort = df_month.sort_values('Price',ascending=False)`
+
+`print(df_month_Sort)`
+
+![Salessort](https://github.com/dennyny/SalesAnalysis/blob/main/Images/monthsort.PNG)
+
 
 
