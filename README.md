@@ -102,5 +102,17 @@ What is the overall sales trend?
 
 ![Salessort](https://github.com/dennyny/SalesAnalysis/blob/main/Images/monthsort.PNG)
 
+**What are the top 10 product by sales?**
+
+**Grouping by product sales**
+
+`df_product_Price = df.groupby(['Product']).sum()['Price']`
+
+`df_product_Price = df_product_Price.sort_values(ascending=False)`
+
+`print(df_product_Price[:10])`
+
+![Salesbyproduct](https://github.com/dennyny/SalesAnalysis/blob/main/Images/top10product.PNG)
+
 
 
