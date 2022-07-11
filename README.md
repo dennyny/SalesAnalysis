@@ -47,8 +47,13 @@ From Output below, Data contains 234,925 rows and 8 columns
 
 Checking for Null Values
 
-`print(df.isnull().sum())'
+`print(df.isnull().sum())`
 
 ![Null Values](https://github.com/dennyny/SalesAnalysis/blob/main/Images/InNull5.PNG)
 
+Getting descriptive information on Dataset
+
+`print(df.describe())`
+
+![Describe](https://github.com/dennyny/SalesAnalysis/blob/main/Images/describe6.PNG)
 
