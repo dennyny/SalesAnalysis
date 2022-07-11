@@ -124,4 +124,15 @@ What is the overall sales trend?
 
 ![Payment Type](https://github.com/dennyny/SalesAnalysis/blob/main/Images/paymenttypeplot.PNG)
 
+**What are the top 10 selling categories?**
+
+`df_cat_subcat = df.groupby(['Category']).sum()['Price']`
+
+`df_cat_subcat = df_cat_subcat.sort_values(ascending=False)`
+
+`print(df_cat_subcat[:10])`
+
+![salesbycategory](https://github.com/dennyny/SalesAnalysis/blob/main/Images/top10salesbyCategory.PNG)
+
+**Thank you for reading this analysis**
 
